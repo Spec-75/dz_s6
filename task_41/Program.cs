@@ -6,8 +6,9 @@
 Console.WriteLine("Enter the required number of numbers");
 int number = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[number];
+int size = array.Length;
 int countPositivNumber = 0;
-for (int i = 0; i < number; i++)
+for (int i = 0; i < size; i++)
 {
     Console.WriteLine("Enter the next number");
     array[i] = Convert.ToInt32(Console.ReadLine());
