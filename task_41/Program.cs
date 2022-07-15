@@ -7,11 +7,11 @@ Console.WriteLine("Enter the required number of numbers");
 int number = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[number];
 int size = array.Length;
-int countPositivNumber = 0;
+int countPositivNumbers = 0;
 for (int i = 0; i < size; i++)
 {
     Console.WriteLine("Enter the next number");
     array[i] = Convert.ToInt32(Console.ReadLine());
-    if (array[i] > 0) countPositivNumber++;
+    if (array[i] > 0) countPositivNumbers++;
 }
-Console.WriteLine($"number of positive numbers: {countPositivNumber}");
+Console.WriteLine($"number of positive numbers: {countPositivNumbers}");
